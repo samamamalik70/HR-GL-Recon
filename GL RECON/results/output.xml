@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.7.5 on win32)" generated="20240724 13:49:29.805" rpa="true" schemaversion="3">
+<suite id="s1" name="Task" source="C:\Users\AK TECHNOLOGY\Documents\Process Studio Workspace\GL RECON\Task.robot">
+<test id="s1-t1" name="Filtering Task" line="7">
+<kw name="Apply Filter" library="FilteringExcelData">
+<doc>this function applies multiple filters on given dataframe , writes data in remarks column according to
+the conditions applied on the dataframe , if function executes successfuly it returns length of resultant dataframe:
+:return len(dataframe):</doc>
+<msg timestamp="20240724 13:56:19.460" level="INFO">13:49:30
+len (bcio filter) 0
+13:56:19</msg>
+<msg timestamp="20240724 13:56:19.460" level="INFO">C:\Users\AK TECHNOLOGY\Documents\Process Studio Workspace\GL RECON\FilteringExcelData.py:77: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  aml_df['Remarks'] = 'IBFT exception'
+C:\Users\AK TECHNOLOGY\Documents\Process Studio Workspace\GL RECON\FilteringExcelData.py:80: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  aml2_df['Remarks'] = 'Wallet Exception'
+C:\Users\AK TECHNOLOGY\Documents\Process Studio Workspace\GL RECON\FilteringExcelData.py:83: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  filtered_col['Remarks'] = 'Wallet exception'
+C:\Users\AK TECHNOLOGY\Documents\Process Studio Workspace\GL RECON\FilteringExcelData.py:87: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  wallet_exp_df['Remarks'] = 'Wallet exception'
+C:\Users\AK TECHNOLOGY\Documents\Process Studio Workspace\GL RECON\FilteringExcelData.py:91: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  count2_df['Remarks'] = 'IBFT exception'
+C:\Users\AK TECHNOLOGY\Documents\Process Studio Workspace\GL RECON\FilteringExcelData.py:94: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cleans_failed_df['Remarks'] = 'Wallet auto reversed'
+C:\Users\AK TECHNOLOGY\Documents\Process Studio Workspace\GL RECON\FilteringExcelData.py:98: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  balanced_df['Remarks'] = 'wallet balanced'
+C:\Users\AK TECHNOLOGY\Documents\Process Studio Workspace\GL RECON\FilteringExcelData.py:103: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  ibft_df['Remarks'] = 'IBFT balanced'</msg>
+<status status="PASS" starttime="20240724 13:49:30.330" endtime="20240724 13:56:19.465"/>
+</kw>
+<status status="PASS" starttime="20240724 13:49:30.329" endtime="20240724 13:56:19.472"/>
+</test>
+<status status="PASS" starttime="20240724 13:49:29.807" endtime="20240724 13:56:19.475"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tasks</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Task">Task</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
